@@ -7,7 +7,7 @@ def main():
     get_characthers_in_string(text.lower())
 
 
-def get_characthers_in_string(text):
+def show_characthers_in_string(text):
     characters = {}
     for character in text:
         if character.isalpha():
