@@ -4,7 +4,7 @@ def main():
     num_words = get_num_words(text)
     print("--- Begin report of books/frankenstein.txt ---")
     print(f"{num_words} words found in the document \n")
-    get_characthers_in_string(text.lower())
+    show_characthers_in_string(text.lower())
 
 
 def show_characthers_in_string(text):
